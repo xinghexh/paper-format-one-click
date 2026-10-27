@@ -58,3 +58,7 @@ git clone https://github.com/xinghexh/paper-format-one-click.git "$env:USERPROFI
 项目级安装也可将本目录放到项目根目录的 `.dsh/skills/paper-format-one-click/`。刷新 DSH 会话后，在 Skill 列表中查找 `paper-format-one-click`。运行配置需要启用本地 Skill 文件系统发现和模型侧 Skill 加载工具，具体以所用 DSH profile 为准，详见[DSH 安装说明](references/deepseek-harness.md)。
 
 这里安装的是 **DSH Skill（工作指令和配套资料）**，不是包含 Cordis 运行时代码的独立 DSH 插件包；它本身不会安装 Word、Python 或文档编辑工具。实际编辑能力取决于 DSH 环境向模型提供的文件访问、DOCX 编辑和验证工具。
+
+
+## 可选研究内容规划
+当用户需要研究思路或技术路线时，Skill 可检索并分类同方向论文，梳理有证据支持的研究缺项，结合用户已有数据和现实约束评估可行性，再将“缺陷—路线—验证—论文内容”对应起来。纯格式排版任务不会自动触发研究内容重构。详见 `references/research-route-planning.md`。
