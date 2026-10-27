@@ -46,3 +46,15 @@
 ## 许可
 
 尚未指定开源许可证。公开仓库前请作者选择并添加适用的 `LICENSE` 文件。
+
+## DeepSeek Harness（DSH）
+
+本项目采用通用 `SKILL.md` 目录格式，可作为 DSH 的本地 Skill 使用。将仓库克隆到 DSH 的用户级 Skill 目录：
+
+```powershell
+git clone https://github.com/xinghexh/paper-format-one-click.git "$env:USERPROFILE\.dsh\skills\paper-format-one-click"
+```
+
+项目级安装也可将本目录放到项目根目录的 `.dsh/skills/paper-format-one-click/`。刷新 DSH 会话后，在 Skill 列表中查找 `paper-format-one-click`。运行配置需要启用本地 Skill 文件系统发现和模型侧 Skill 加载工具，具体以所用 DSH profile 为准，详见[DSH 安装说明](references/deepseek-harness.md)。
+
+这里安装的是 **DSH Skill（工作指令和配套资料）**，不是包含 Cordis 运行时代码的独立 DSH 插件包；它本身不会安装 Word、Python 或文档编辑工具。实际编辑能力取决于 DSH 环境向模型提供的文件访问、DOCX 编辑和验证工具。
