@@ -1,0 +1,3 @@
+interface:
+  display_name: "论文格式一键排版"
+  short_description: "按期刊或学位论文规范整理中文论文 Word 格式。"
