@@ -87,3 +87,7 @@
 - CSDN 教程《Word中文章如何快速引用文献以及文献格式设置》：<https://blog.csdn.net/qq_44475666/article/details/135589084>。用于记忆 Word 自动编号和交叉引用的操作步骤，不作为期刊规范来源。
 - Microsoft Support, “Find and replace text in Word”：<https://support.microsoft.com/en-us/word/training/find-and-replace-text-in-word>。用于核对查找代码、替换格式和保留匹配文本的操作。
 - GB/T 7714-2015：用户提供的标准 PDF。具体项目仍须核对用户提供的文件和目标期刊官网最新要求。
+
+
+## 中文稿引文上标默认规则
+中文稿采用顺序编码制且目标期刊/学校未明确规定其他形式时，正文完整数字引文默认设为上标，包括 `[1]`、`[1-2]`、`[1,3]` 等组合标记；官方规范另有要求时从其规定。上标处理范围只到正文，不能包含文末参考文献列表；参考文献编号保持基线格式。
