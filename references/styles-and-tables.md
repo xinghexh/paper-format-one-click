@@ -50,3 +50,11 @@
 - Microsoft Support, [Add a heading in a Word document](https://support.microsoft.com/en-us/word/add-a-heading-in-a-word-document)：使用标题样式支持导航和目录。
 - Microsoft Support, [Repeat table header on subsequent pages](https://support.microsoft.com/en-us/word/repeat-table-header-on-subsequent-pages)：跨页表格重复表头及手动分页符限制。
 - 题注和交叉引用参见 [figure-table-cross-references.md](figure-table-cross-references.md)；具体期刊/学位论文要求仍须按其正式规范或作者参考文件执行。
+
+
+## 未规定时的统一样式规则
+
+- 目标期刊/学校没有规定颜色时，题名、各级标题、正文、引文、题注、表格文字及参考文献文字默认黑色（RGB `000000`）；超链接和交叉引用保持可点击，无另行要求时也设为黑色。
+- 题名及每个实际使用的标题级别都要显式设置中西文字体、字号、字重、颜色、段前段后和缩进。标题层级可以使用不同字号，但应先建立固定映射；同一级不能因 Word 主题或局部直接格式而漂移。
+- 不得依赖 Word 内置 Heading 的主题默认颜色；将所有实际使用的 Title、Heading 1…Heading N、题注样式明确设为黑色 RGB `000000`，并检查直接格式是否覆盖样式。
+- 中西文字体分别指定。若不同内容类型按期刊要求使用不同字号，应逐类固定并记录；统一指同类一致、层级差异有意且稳定。
